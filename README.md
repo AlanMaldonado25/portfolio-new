@@ -1,8 +1,31 @@
-# React + Vite
+## Mi portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre mi
 
-Currently, two official plugins are available:
+Soy Alan Maldonado , Desarrollador frontend junior.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pude terminar mi portfolio y luego poder seguir agregando las webs y aplicaciones que he hecho.
+
+Para descargar el codigo fuente de mi protfolio
+
+```bash
+  git clone https://github.com/AlanMaldonado25/portfolio-new.git
+```
+
+Una vez clonado el repositorio
+
+```bash
+  cd [carpeta de destino]
+```
+
+Luego instalar las dependencias.
+
+```bash
+  npm install
+```
+
+Para ejecutar el proyecto
+
+```bash
+  npm run dev
+```
