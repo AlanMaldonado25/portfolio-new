@@ -3,7 +3,7 @@
  * @license Apache-2.0
  */
 
-import { ButtonOutline, ButtonPrimary } from "./button";
+import { ButtonPrimary } from "./button";
 
 const Hero = () => {
     return (
@@ -13,9 +13,9 @@ const Hero = () => {
                     <div className="flex items-center gap-3">
                         <figure className="img-box w-9 h-9 rounded-lg">
                             <img
-                                src="/images/avatar-1.jpg"
-                                height={40}
-                                width={40}
+                                src="/images/picture-prof.jpg"
+                                height={50}
+                                width={50}
                                 alt="alan maldonado"
                                 className="img-cover"
                             />
@@ -28,25 +28,25 @@ const Hero = () => {
                         </div>
                     </div>
                     <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                        Building Scalable Modern Websites for the Future
+                        Alan Maldonado Desarrollador Front end
                     </h2>
                     <div className="flex items-center gap-3">
-                        <ButtonPrimary label="Download CV" icon="download" />
-                        <ButtonOutline
-                            label="Scroll down"
-                            href="#about"
-                            icon="arrow_downward"
+                        <ButtonPrimary
+                            label="Download CV"
+                            icon="download"
+                            href={"/images/CV.pdf"}
+                            target="_blank"
                         />
                     </div>
                 </div>
                 <div className="hidden lg:block ">
                     <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
                         <img
-                            src="/images/hero-banner.png"
+                            src="/images/profile-picture.png"
                             width={656}
                             height={800}
                             alt="Alan maldonado"
-                            className="w-full"
+                            className="w-full "
                         />
                     </figure>
                 </div>

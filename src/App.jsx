@@ -3,19 +3,18 @@
  * @license Apache-2.0
  */
 
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ReactLenis } from "lenis/react";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import { Header } from "./components/header";
 import Hero from "./components/hero";
-import Review from "./components/review";
 import Skill from "./components/skills";
 import Work from "./components/work";
 import "./index.css";
-import { ReactLenis } from "lenis/react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -46,7 +45,6 @@ const App = () => {
                 <About />
                 <Skill />
                 <Work />
-                <Review />
                 <Contact />
             </main>
             <Footer />

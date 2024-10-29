@@ -18,10 +18,6 @@ const sitemap = [
         href: "#work",
     },
     {
-        label: "Reviews",
-        href: "#reviews",
-    },
-    {
         label: "Contact me",
         href: "#contact",
     },
@@ -30,23 +26,19 @@ const sitemap = [
 const socials = [
     {
         label: "GitHub",
-        href: "https://www.github.com/codewithsadee-org",
+        href: "https://github.com/AlanMaldonado25",
     },
     {
         label: "LinkedIn",
-        href: "https://www.linkedin.com/in/codewithsadee",
+        href: "https://www.linkedin.com/in/alan-maldonado-coder/",
     },
     {
         label: "Twitter X",
-        href: "https://x.com/codewithsadee_",
+        href: "https://x.com/Alanmaldonado22",
     },
     {
         label: "Instagram",
-        href: "https://www.instagram.com/codewithsadee",
-    },
-    {
-        label: "CodePen",
-        href: "https://codepen.io/codewithsadee",
+        href: "https://www.instagram.com/alanmaldo22/",
     },
 ];
 
@@ -57,11 +49,11 @@ const Footer = () => {
                 <div className="lg:grid lg:grid-cols-2">
                     <div className="mb-10">
                         <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
-                            Let&apos;s work together today!
+                            Envíame un email
                         </h2>
                         <ButtonPrimary
-                            href={"mailto:alanmaldo.ct@gmail.com"}
-                            label="Start project"
+                            href={"mailto:alan.maldonado.dev@gmail.com"}
+                            label="Enviar correo"
                             icon="chevron_right"
                             classes="reveal-up"
                         />
@@ -69,7 +61,7 @@ const Footer = () => {
 
                     <div className="grid grid-cols-2 gap-4 lg:pl-20">
                         <div>
-                            <p className="mb-2 reveal-up">Sitemap</p>
+                            <p className="mb-2 reveal-up">Menu</p>
                             <ul>
                                 {sitemap.map(({ label, href }, key) => (
                                     <li key={key}>
@@ -84,7 +76,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <p className="mb-2 ">Socials</p>
+                            <p className="mb-2 ">Mis redes</p>
                             <ul>
                                 {socials.map(({ label, href }, key) => (
                                     <li key={key}>
@@ -105,10 +97,9 @@ const Footer = () => {
                 <div className="flex items-center justify-between pt-10 mb-16 reveal-up ">
                     <a href="/" className="reveal-up">
                         <img
-                            src="/images/logo.svg"
-                            width={40}
-                            height={40}
-                            alt="Logo"
+                            src="/public/images/logo-remove-bg.png"
+                            height={120}
+                            width={120}
                         />
                     </a>
 

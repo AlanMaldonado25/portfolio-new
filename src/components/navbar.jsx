@@ -38,18 +38,13 @@ const Navbar = ({ navOpen }) => {
             ref: lastActiveLink,
         },
         {
-            label: "About",
+            label: "Sobre mi",
             link: "#about",
             className: "nav-link",
         },
         {
-            label: "Work",
+            label: "Proyectos",
             link: "#work",
-            className: "nav-link",
-        },
-        {
-            label: "Reviews",
-            link: "#reviews",
             className: "nav-link",
         },
         {

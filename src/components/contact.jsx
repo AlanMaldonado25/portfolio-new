@@ -5,7 +5,7 @@
 
 const socialLinks = [
     {
-        href: "https://www.github.com/codewithsadee-org",
+        href: "https://github.com/AlanMaldonado25",
         icon: (
             <svg
                 width="24"
@@ -23,7 +23,7 @@ const socialLinks = [
         alt: "GitHub",
     },
     {
-        href: "https://www.linkedin.com/in/codewithsadee",
+        href: "https://www.linkedin.com/in/alan-maldonado-coder/",
         icon: (
             <svg
                 width="24"
@@ -41,7 +41,7 @@ const socialLinks = [
         alt: "LinkedIn",
     },
     {
-        href: "https://x.com/codewithsadee_",
+        href: "https://x.com/Alanmaldonado22",
         icon: (
             <svg
                 width="24"
@@ -59,7 +59,7 @@ const socialLinks = [
         alt: "Twitter X",
     },
     {
-        href: "https://www.instagram.com/codewithsadee",
+        href: "https://www.instagram.com/alanmaldo22/",
         icon: (
             <svg
                 width="25"
@@ -84,11 +84,11 @@ const Contact = () => {
             <div className="container lg:grid lg:grid-cols-2 lg:items-strech">
                 <div className=" mb-12 lg:mb-0 lg:flex lg:flex-col ">
                     <h2 className="headline-2 lg:max-w-[12ch] reveal-up">
-                        Contact me for collaboration
+                        Contacto
                     </h2>
                     <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up ">
-                        Reach out today to discuss your project needs and start
-                        collaborating on something amazing!
+                        ¡Contáctame hoy para discutir tus necesidades de
+                        proyecto y comenzar a colaborar en algo increíble!
                     </p>
                     <div className="flex items-center gap-2 mt-auto">
                         {socialLinks.map(({ href, icon }, key) => (
@@ -120,7 +120,7 @@ const Contact = () => {
                                 className="text-field reveal-up"
                                 autoComplete="name"
                                 required
-                                placeholder="Alan Maldonado"
+                                placeholder="Nombre..."
                             />
                         </div>
                         <div className="mb-4">
@@ -134,7 +134,7 @@ const Contact = () => {
                                 className="text-field reveal-up"
                                 autoComplete="email"
                                 required
-                                placeholder="alanmaldo.ct@gmail.com"
+                                placeholder="Email..."
                             />
                         </div>
                     </div>
