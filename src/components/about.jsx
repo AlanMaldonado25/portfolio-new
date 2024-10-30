@@ -40,7 +40,7 @@ const About = () => {
                         ))}
 
                         <img
-                            src="/public/images/logo-remove-bg.webp"
+                            src="/images/logo-remove-bg.webp"
                             height={110}
                             width={110}
                             alt="Logotipo"

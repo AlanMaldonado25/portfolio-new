@@ -97,7 +97,7 @@ const Footer = () => {
                 <div className="flex items-center justify-between pt-10 mb-16 reveal-up ">
                     <a href="/" className="reveal-up">
                         <img
-                            src="/public/images/logo-remove-bg.webp"
+                            src="/images/logo-remove-bg.webp"
                             height={120}
                             width={120}
                         />

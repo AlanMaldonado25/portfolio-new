@@ -14,7 +14,7 @@ export const Header = () => {
                 <h1>
                     <a href="/" className="logo">
                         <img
-                            src="/public/images/logo-remove-bg.webp"
+                            src="/images/logo-remove-bg.webp"
                             height={120}
                             width={120}
                             alt="Logotipo"
