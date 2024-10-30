@@ -29,17 +29,16 @@ const PortfolioCard = ({ imgSrc, title, tags, projectLink, classes }) => {
                         ))}
                     </div>
                 </div>
-                <div className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 txt-zinc-950 shrink-0">
+                <a
+                    href={projectLink}
+                    className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 txt-zinc-950 shrink-0"
+                    target="_blank"
+                >
                     <span className="material-symbols-rounded" aria-hidden>
                         arrow_outward
                     </span>
-                </div>
+                </a>
             </div>
-            <a
-                href={projectLink}
-                className="absolut inset-0"
-                target="_blank"
-            ></a>
         </div>
     );
 };

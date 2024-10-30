@@ -28,7 +28,7 @@ const works = [
         imgSrc: "/images/Eat-app.png",
         title: "RapiEat",
         tags: ["React Native", "Firebase"],
-        projectLink: "https://github.com/codewithsadee-org/wealthome",
+        projectLink: "",
     },
 ];
 
